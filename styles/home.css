@@ -1,1 +1,33 @@
 /* add home page styles here */
+
+.grid {display: grid;
+    height: 800px;
+    width: 600px;
+    gap: 1px 1px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-color: red;
+    justify-content: center;
+}
+.area-1 {grid-area: area-1;
+    background-color: grey;}
+.area-2 {grid-area: area-2;
+    background-color: lightgrey;}
+.area-3 {grid-area: area-3;
+    background-color: grey;}
+.area-4 {grid-area: area-4;
+    background-color: lightgrey;}
+.area-5 {grid-area: area-5;
+    background-color: grey;}
+.area-6 {grid-area: area-6;
+    background-color: lightgrey;}
+.area-7 {grid-area: area-7;
+    background-color: grey;}
+.area-8 {grid-area: area-8;
+    background-color: lightgrey;}
+
+
+
+
+
+
